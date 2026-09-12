@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Crowned Naturals Hair Salon & Barber Shop in Ashtabula, Ohio. Sew-ins, braids, natural hair care, lashes, ponytails and quick weaves.">
+<title>Crowned Naturals | Hair Salon & Barber Shop</title>
+<style>
+:root{--cream:#fff9f0;--brown:#3d241b;--gold:#c89b52;--rose:#b86f72;--ink:#241815;--white:#fff}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;background:var(--cream);color:var(--ink);line-height:1.6}
+a{text-decoration:none;color:inherit}
+.nav{position:sticky;top:0;z-index:10;background:rgba(255,249,240,.96);border-bottom:1px solid #eadcc9;display:flex;justify-content:space-between;align-items:center;padding:16px 7%;backdrop-filter:blur(8px)}
+.logo{font-family:Georgia,serif;font-size:1.45rem;font-weight:bold;color:var(--brown)}
+.logo span{color:var(--gold)}
+.navlinks{display:flex;gap:25px;font-size:.95rem}
+.navlinks a:hover{color:var(--rose)}
+.btn{display:inline-block;background:var(--brown);color:white;padding:13px 22px;border-radius:999px;font-weight:bold;border:2px solid var(--brown);transition:.2s}
+.btn:hover{background:transparent;color:var(--brown)}
+.btn.gold{background:var(--gold);border-color:var(--gold);color:#2c1c12}
+.hero{min-height:82vh;display:grid;place-items:center;text-align:center;padding:80px 7%;background:radial-gradient(circle at 50% 15%,#fff 0,#fff9f0 42%,#f2e4d1 100%)}
+.crown{font-size:2rem;color:var(--gold);margin-bottom:10px}
+.hero h1{font-family:Georgia,serif;font-size:clamp(3rem,8vw,6.5rem);line-height:.95;color:var(--brown);margin-bottom:20px}
+.hero h1 em{color:var(--rose);font-style:normal}
+.hero p{max-width:650px;margin:0 auto 30px;font-size:1.15rem;color:#62483d}
+.actions{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}
+section{padding:85px 7%}
+.section-title{text-align:center;margin-bottom:45px}
+.kicker{text-transform:uppercase;letter-spacing:3px;color:var(--rose);font-size:.78rem;font-weight:bold}
+h2{font-family:Georgia,serif;color:var(--brown);font-size:clamp(2.1rem,5vw,3.3rem);margin:7px 0}
+.services{background:#fff}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;max-width:1100px;margin:auto}
+.card{padding:30px;border:1px solid #eadcc9;border-radius:22px;background:var(--cream);transition:transform .2s,box-shadow .2s}
+.card:hover{transform:translateY(-4px);box-shadow:0 12px 30px rgba(61,36,27,.08)}
+.icon{font-size:2rem;margin-bottom:12px}
+.card h3{font-family:Georgia,serif;color:var(--brown);font-size:1.35rem;margin-bottom:7px}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;max-width:1100px;margin:auto}
+.aboutbox{background:var(--brown);color:white;border-radius:28px;padding:45px;min-height:320px;display:grid;place-items:center;text-align:center}
+.aboutbox .seal{border:1px solid rgba(255,255,255,.5);border-radius:50%;width:180px;height:180px;display:grid;place-items:center;font-family:Georgia,serif;font-size:1.7rem}
+.about p{color:#684f44;margin:16px 0}
+.contact{background:#f0dfc9}
+.contactbox{max-width:900px;margin:auto;text-align:center}
+.info{display:flex;justify-content:center;gap:15px;flex-wrap:wrap;margin:25px 0 30px}
+.info div{background:white;padding:15px 22px;border-radius:14px}
+footer{background:#241815;color:#f7ead8;text-align:center;padding:35px 7%}
+footer strong{font-family:Georgia,serif;font-size:1.25rem}
+.small{font-size:.86rem;opacity:.8;margin-top:8px}
+@media(max-width:760px){
+.nav{padding:14px 5%}.navlinks{display:none}
+section{padding:65px 5%}.hero{padding:70px 5%;min-height:78vh}
+.grid,.about{grid-template-columns:1fr}.about{gap:30px}.card{padding:25px}
+}
+</style>
+</head>
+<body>
+<nav class="nav">
+  <a class="logo" href="#home">Crowned <span>Naturals</span></a>
+  <div class="navlinks">
+    <a href="#services">Services</a><a href="#about">About</a><a href="#contact">Contact</a>
+  </div>
+  <a class="btn" href="#contact">Book Now</a>
+</nav>
+
+<header class="hero" id="home">
+  <div>
+    <div class="crown">♛</div>
+    <div class="kicker">Hair Salon • Barber Shop • Beauty</div>
+    <h1>Crowned <em>Naturals</em></h1>
+    <p>Beautiful hair. Confident you. Professional beauty services in Ashtabula, Ohio.</p>
+    <div class="actions">
+      <a class="btn gold" href="#contact">Book an Appointment</a>
+      <a class="btn" href="#services">Explore Services</a>
+    </div>
+  </div>
+</header>
+
+<section class="services" id="services">
+  <div class="section-title">
+    <div class="kicker">What We Do</div>
+    <h2>Beauty, Your Way</h2>
+    <p>Choose your look and leave feeling like royalty.</p>
+  </div>
+  <div class="grid">
+    <article class="card"><div class="icon">✨</div><h3>Sew-Ins</h3><p>Polished, protective and confidence-boosting sew-in styles.</p></article>
+    <article class="card"><div class="icon">👑</div><h3>Braids</h3><p>Classic and creative braided styles made to fit your personality.</p></article>
+    <article class="card"><div class="icon">🌿</div><h3>Natural Hair Care</h3><p>Healthy-hair-focused care and styling for your natural texture.</p></article>
+    <article class="card"><div class="icon">💫</div><h3>Lashes</h3><p>Complete your look with beautiful lash services.</p></article>
+    <article class="card"><div class="icon">🎀</div><h3>Ponytails</h3><p>Sleek, stylish ponytail looks for everyday glam or special occasions.</p></article>
+    <article class="card"><div class="icon">💇🏽‍♀️</div><h3>Quick Weaves</h3><p>Fresh, versatile styles when you want a gorgeous transformation.</p></article>
+  </div>
+</section>
+
+<section id="about">
+  <div class="about">
+    <div class="aboutbox"><div class="seal">Crowned<br>Naturals</div></div>
+    <div>
+      <div class="kicker">About Crowned Naturals</div>
+      <h2>Come in. Get crowned.</h2>
+      <p>At Crowned Naturals, beauty is about more than a hairstyle. It's about helping you feel confident, cared for and completely yourself.</p>
+      <p>From natural hair care to protective styles, lashes and barber services, we're here to help you create a look you love.</p>
+      <a class="btn" href="#contact">Let's Get You Booked</a>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="contactbox">
+    <div class="kicker">Ashtabula, Ohio</div>
+    <h2>Ready for your next look?</h2>
+    <p>Serving the 44004 area. Contact Crowned Naturals to schedule your appointment.</p>
+    <div class="info">
+      <div>📍 Ashtabula, OH 44004</div>
+      <div>📞 <a href="tel:+14406232288">(440) 623-2288</a></div>
+      <div>📷 Add your Instagram</div>
+    </div>
+    <a class="btn gold" href="tel:+14406232288">📞 Call (440) 623-2288</a>
+    <p class="small">Replace the phone, Instagram and email placeholders with your business information before publishing.</p>
+  </div>
+</section>
+
+<footer>
+  <strong>Crowned Naturals</strong>
+  <div class="small">Hair Salon & Barber Shop • Ashtabula, Ohio 44004</div>
+  <div class="small">© 2026 Crowned Naturals. All rights reserved.</div>
+</footer>
+</body>
+</html>
